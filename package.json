@@ -1,0 +1,14 @@
+{
+  "name": "semear",
+  "private": true,
+  "description": "SEMEAR: a study method for data and cloud certifications, with AI as your training partner.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "nova": "node scripts/nova-certificacao.mjs"
+  }
+}

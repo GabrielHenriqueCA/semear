@@ -1,0 +1,7 @@
+# Placeholders que o autor ainda vai trocar pelos perfis reais
+^https://www\.linkedin\.com/?$
+^https://github\.com/?$
+# Exemplo do "Comece em 5 minutos"
+github\.com/<
+# Badges são geradas sob demanda e às vezes limitam requisições do CI
+^https://img\.shields\.io/

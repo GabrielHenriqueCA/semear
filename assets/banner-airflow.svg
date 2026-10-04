@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Apache Airflow 3 and Astronomer: AI Orchestration. SEMEAR Method.">
+  <defs>
+    <linearGradient id="bg-af" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08141F"/>
+      <stop offset="0.55" stop-color="#0E2738"/>
+      <stop offset="1" stop-color="#0D353F"/>
+    </linearGradient>
+    <linearGradient id="af-teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#017CEE"/>
+      <stop offset="0.5" stop-color="#00C9A7"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <radialGradient id="glow-af" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00C9A7" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#00C9A7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid-af" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#5EEAD4"/>
+    </pattern>
+    <clipPath id="card-af"><rect width="1280" height="320" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#card-af)">
+    <rect width="1280" height="320" fill="url(#bg-af)"/>
+    <rect width="1280" height="320" fill="url(#grid-af)" opacity="0.08"/>
+    <circle cx="220" cy="160" r="220" fill="url(#glow-af)"/>
+    <!-- Directed Acyclic Graph (DAG) Network nodes -->
+    <g transform="translate(80 60)">
+      <!-- Nodes and Edges -->
+      <line x1="80" y1="120" x2="180" y2="60" stroke="#00C9A7" stroke-width="3" opacity="0.6"/>
+      <line x1="80" y1="120" x2="180" y2="180" stroke="#00C9A7" stroke-width="3" opacity="0.6"/>
+      <line x1="180" y1="60" x2="290" y2="90" stroke="#5EEAD4" stroke-width="3" opacity="0.6"/>
+      <line x1="180" y1="180" x2="290" y2="150" stroke="#5EEAD4" stroke-width="3" opacity="0.6"/>
+      <line x1="290" y1="90" x2="380" y2="120" stroke="#017CEE" stroke-width="3" opacity="0.6"/>
+      <line x1="290" y1="150" x2="380" y2="120" stroke="#017CEE" stroke-width="3" opacity="0.6"/>
+      <!-- Circle nodes -->
+      <circle cx="80" cy="120" r="16" fill="#0F2027" stroke="#00C9A7" stroke-width="4"/>
+      <circle cx="80" cy="120" r="6" fill="#00C9A7"/>
+      <circle cx="180" cy="60" r="18" fill="#0F2027" stroke="#5EEAD4" stroke-width="4"/>
+      <circle cx="180" cy="60" r="7" fill="#5EEAD4"/>
+      <circle cx="180" cy="180" r="18" fill="#0F2027" stroke="#5EEAD4" stroke-width="4"/>
+      <circle cx="180" cy="180" r="7" fill="#5EEAD4"/>
+      <circle cx="290" cy="90" r="16" fill="#0F2027" stroke="#017CEE" stroke-width="4"/>
+      <circle cx="290" cy="90" r="6" fill="#017CEE"/>
+      <circle cx="290" cy="150" r="16" fill="#0F2027" stroke="#017CEE" stroke-width="4"/>
+      <circle cx="290" cy="150" r="6" fill="#017CEE"/>
+      <circle cx="380" cy="120" r="20" fill="#0F2027" stroke="#7CFF6B" stroke-width="4"/>
+      <circle cx="380" cy="120" r="8" fill="#7CFF6B"/>
+    </g>
+    <!-- Content Header -->
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+      <rect x="520" y="52" width="220" height="28" rx="14" fill="#017CEE" fill-opacity="0.22" stroke="#017CEE" stroke-opacity="0.8"/>
+      <text x="630" y="71" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="1.5" fill="#5EEAD4">ASTRONOMER & AIRFLOW</text>
+      <text x="520" y="145" font-size="60" font-weight="800" letter-spacing="1.5" fill="url(#af-teal)">Apache Airflow 3</text>
+      <text x="520" y="185" font-size="24" font-weight="600" fill="#E0F7F6">DAG Authoring & AI Orchestration</text>
+      <text x="520" y="222" font-size="16" fill="#A8D6D4">TaskFlow API, Datasets, Dynamic Task Mapping and AI orchestration with HITL.</text>
+      <!-- Badges row inside banner -->
+      <g transform="translate(520 246)">
+        <rect x="0" y="0" width="100" height="26" rx="6" fill="#00C9A7" fill-opacity="0.2" stroke="#00C9A7" stroke-opacity="0.6"/>
+        <text x="50" y="17" font-size="12" font-weight="700" text-anchor="middle" fill="#00C9A7">PASSED ✅</text>
+        <rect x="110" y="0" width="158" height="26" rx="6" fill="#FF6B4A" fill-opacity="0.22" stroke="#FF6B4A" stroke-opacity="0.6"/>
+        <text x="189" y="17" font-size="12" font-weight="600" text-anchor="middle" fill="#FF8A65">3 CREDLY BADGES</text>
+        <rect x="278" y="0" width="168" height="26" rx="6" fill="#017CEE" fill-opacity="0.25" stroke="#017CEE" stroke-opacity="0.6"/>
+        <text x="362" y="17" font-size="12" font-weight="600" text-anchor="middle" fill="#5EEAD4">ASTRONOMER ACADEMY</text>
+      </g>
+    </g>
+  </g>
+</svg>

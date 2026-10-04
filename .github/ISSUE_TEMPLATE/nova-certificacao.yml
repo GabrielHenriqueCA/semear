@@ -1,0 +1,26 @@
+name: 🎓 Nova certificação
+description: Sugira uma prova para entrar no hub.
+labels: [nova-certificação]
+body:
+  - type: input
+    id: prova
+    attributes:
+      label: Código e nome da prova
+      placeholder: DP-203 | Azure Data Engineer Associate
+    validations:
+      required: true
+  - type: input
+    id: guia
+    attributes:
+      label: Link do guia oficial (skills measured)
+    validations:
+      required: true
+  - type: dropdown
+    id: ajuda
+    attributes:
+      label: Você quer montar a pasta?
+      options:
+        - Sim, eu abro o PR
+        - Só estou sugerindo
+    validations:
+      required: true

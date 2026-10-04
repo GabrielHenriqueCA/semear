@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Azure Databricks DP-750: Data Engineer Associate. SEMEAR Method.">
+  <defs>
+    <linearGradient id="bg-dp" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#140808"/>
+      <stop offset="0.55" stop-color="#2D1111"/>
+      <stop offset="1" stop-color="#0E2135"/>
+    </linearGradient>
+    <linearGradient id="db-coral" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF3621"/>
+      <stop offset="1" stop-color="#FF7A00"/>
+    </linearGradient>
+    <radialGradient id="glow-dp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF3621" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#FF3621" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid-dp" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#FF5A36"/>
+    </pattern>
+    <clipPath id="card-dp"><rect width="1280" height="320" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#card-dp)">
+    <rect width="1280" height="320" fill="url(#bg-dp)"/>
+    <rect width="1280" height="320" fill="url(#grid-dp)" opacity="0.08"/>
+    <circle cx="220" cy="160" r="220" fill="url(#glow-dp)"/>
+    <!-- Databricks Symbol / Isometric Blocks -->
+    <g transform="translate(100 65)">
+      <!-- Isometric Diamond stack -->
+      <path d="M120 40 L200 80 L120 120 L40 80 Z" fill="#FF3621" opacity="0.95"/>
+      <path d="M120 90 L200 130 L120 170 L40 130 Z" fill="#FF5A36" opacity="0.8"/>
+      <path d="M120 140 L200 180 L120 220 L40 180 Z" fill="#0078D4" opacity="0.85"/>
+      <!-- Spark lines -->
+      <path d="M200 80 L280 40 L340 70" stroke="#FF7A00" stroke-width="3" fill="none" opacity="0.6"/>
+      <circle cx="280" cy="40" r="5" fill="#FF7A00"/>
+      <circle cx="340" cy="70" r="6" fill="#00C9A7"/>
+      <path d="M200 180 L270 210 L330 190" stroke="#00C9A7" stroke-width="3" fill="none" opacity="0.6"/>
+      <circle cx="270" cy="210" r="5" fill="#5EEAD4"/>
+      <circle cx="330" cy="190" r="6" fill="#00C9A7"/>
+    </g>
+    <!-- Content Header -->
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+      <rect x="520" y="52" width="200" height="28" rx="14" fill="#FF3621" fill-opacity="0.22" stroke="#FF3621" stroke-opacity="0.8"/>
+      <text x="620" y="71" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="1.5" fill="#FF7A00">AZURE DATABRICKS</text>
+      <text x="520" y="145" font-size="64" font-weight="800" letter-spacing="2" fill="url(#db-coral)">DP-750</text>
+      <text x="520" y="185" font-size="24" font-weight="600" fill="#FFEAE6">Data Engineer Associate</text>
+      <text x="520" y="222" font-size="16" fill="#DDB2AC">Delta Lake, Unity Catalog, Auto Loader, Lakeflow Pipelines and governance.</text>
+      <!-- Badges row inside banner -->
+      <g transform="translate(520 246)">
+        <rect x="0" y="0" width="100" height="26" rx="6" fill="#00C9A7" fill-opacity="0.2" stroke="#00C9A7" stroke-opacity="0.6"/>
+        <text x="50" y="17" font-size="12" font-weight="700" text-anchor="middle" fill="#00C9A7">PASSED ✅</text>
+        <rect x="110" y="0" width="168" height="26" rx="6" fill="#FF3621" fill-opacity="0.22" stroke="#FF3621" stroke-opacity="0.6"/>
+        <text x="194" y="17" font-size="12" font-weight="600" text-anchor="middle" fill="#FF7A00">DELTA LAKE & UNITY</text>
+        <rect x="288" y="0" width="160" height="26" rx="6" fill="#0078D4" fill-opacity="0.25" stroke="#0078D4" stroke-opacity="0.6"/>
+        <text x="368" y="17" font-size="12" font-weight="600" text-anchor="middle" fill="#50E6FF">MICROSOFT LEARN</text>
+      </g>
+    </g>
+  </g>
+</svg>

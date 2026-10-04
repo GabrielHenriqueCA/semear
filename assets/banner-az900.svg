@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Microsoft Azure AZ-900: Azure Fundamentals. SEMEAR Method.">
+  <defs>
+    <linearGradient id="bg-az" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1520"/>
+      <stop offset="0.6" stop-color="#0E2A47"/>
+      <stop offset="1" stop-color="#004C87"/>
+    </linearGradient>
+    <linearGradient id="az-blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#50E6FF"/>
+    </linearGradient>
+    <radialGradient id="glow-az" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#0078D4" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#0078D4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid-az" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#50E6FF"/>
+    </pattern>
+    <clipPath id="card-az"><rect width="1280" height="320" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#card-az)">
+    <rect width="1280" height="320" fill="url(#bg-az)"/>
+    <rect width="1280" height="320" fill="url(#grid-az)" opacity="0.08"/>
+    <circle cx="200" cy="160" r="220" fill="url(#glow-az)"/>
+    <!-- Azure Logo Vector Symbol -->
+    <g transform="translate(90 60) scale(1.05)">
+      <!-- Microsoft 4 color squares subtle -->
+      <g opacity="0.9">
+        <rect x="20" y="20" width="60" height="60" rx="4" fill="#F25022"/>
+        <rect x="90" y="20" width="60" height="60" rx="4" fill="#7FBA00"/>
+        <rect x="20" y="90" width="60" height="60" rx="4" fill="#00A4EF"/>
+        <rect x="90" y="90" width="60" height="60" rx="4" fill="#FFB900"/>
+      </g>
+      <!-- Cloud Outline and Circuit -->
+      <path d="M190 140 C190 110 215 85 245 85 C255 85 264 88 272 93 C282 72 304 58 330 58 C368 58 398 88 400 126 C416 130 428 145 428 162 C428 182 412 198 392 198 L200 198 C178 198 160 180 160 158 C160 138 175 122 195 120" fill="none" stroke="#50E6FF" stroke-width="6" opacity="0.75" stroke-linecap="round"/>
+      <circle cx="245" cy="140" r="5" fill="#50E6FF"/>
+      <circle cx="330" cy="115" r="7" fill="#00C9A7"/>
+      <circle cx="380" cy="155" r="5" fill="#50E6FF"/>
+      <line x1="245" y1="140" x2="330" y2="115" stroke="#50E6FF" stroke-width="2" opacity="0.6"/>
+      <line x1="330" y1="115" x2="380" y2="155" stroke="#50E6FF" stroke-width="2" opacity="0.6"/>
+    </g>
+    <!-- Content Header -->
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+      <rect x="580" y="52" width="160" height="28" rx="14" fill="#0078D4" fill-opacity="0.25" stroke="#0078D4" stroke-opacity="0.8"/>
+      <text x="660" y="71" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="1.5" fill="#50E6FF">MICROSOFT AZURE</text>
+      <text x="580" y="145" font-size="64" font-weight="800" letter-spacing="2" fill="url(#az-blue)">AZ-900</text>
+      <text x="580" y="185" font-size="24" font-weight="600" fill="#E2F2FF">Azure Fundamentals</text>
+      <text x="580" y="222" font-size="16" fill="#A5CDEC">Structured prep, practice quizzes and domain analysis with the SEMEAR method.</text>
+      <!-- Badges row inside banner -->
+      <g transform="translate(580 246)">
+        <rect x="0" y="0" width="100" height="26" rx="6" fill="#00C9A7" fill-opacity="0.2" stroke="#00C9A7" stroke-opacity="0.6"/>
+        <text x="50" y="17" font-size="12" font-weight="700" text-anchor="middle" fill="#00C9A7">PASSED ✅</text>
+        <rect x="110" y="0" width="148" height="26" rx="6" fill="#0078D4" fill-opacity="0.25" stroke="#0078D4" stroke-opacity="0.6"/>
+        <text x="184" y="17" font-size="12" font-weight="600" text-anchor="middle" fill="#50E6FF">3 OFFICIAL DOMAINS</text>
+        <rect x="268" y="0" width="138" height="26" rx="6" fill="#7CFF6B" fill-opacity="0.18" stroke="#7CFF6B" stroke-opacity="0.6"/>
+        <text x="337" y="17" font-size="12" font-weight="600" text-anchor="middle" fill="#7CFF6B">PRACTICE QUIZ</text>
+      </g>
+    </g>
+  </g>
+</svg>

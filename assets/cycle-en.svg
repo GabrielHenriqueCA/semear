@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 540" width="1060" height="540" role="img" aria-label="The SEMEAR cycle: Sow once, pause 2 to 5 days, then repeat Study, Show, Exercise, Assess and Review every week until exam day.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F2027"/>
+      <stop offset="1" stop-color="#1B3A45"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00C9A7"/>
+      <stop offset="1" stop-color="#7CFF6B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00C9A7" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#00C9A7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1060" height="540" rx="24" fill="url(#bg)"/>
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <text x="40" y="52" font-size="14" font-weight="700" letter-spacing="3" fill="#5EEAD4">THE SEMEAR CYCLE</text>
+  <circle cx="680" cy="290" r="150" fill="url(#glow)"/>
+  <circle cx="680" cy="290" r="205" fill="none" stroke="url(#ring)" stroke-width="3" opacity="0.55"/>
+  <g fill="#5EEAD4">
+    <path d="M-8 -7 L8 0 L-8 7 Z" transform="translate(560 124) rotate(324)"/>
+    <path d="M-8 -7 L8 0 L-8 7 Z" transform="translate(800 124) rotate(36)"/>
+    <path d="M-8 -7 L8 0 L-8 7 Z" transform="translate(875 353) rotate(108)"/>
+    <path d="M-8 -7 L8 0 L-8 7 Z" transform="translate(680 495) rotate(180)"/>
+    <path d="M-8 -7 L8 0 L-8 7 Z" transform="translate(485 353) rotate(252)"/>
+  </g>
+  <line x1="262" y1="227" x2="362" y2="227" stroke="#00C9A7" stroke-width="3" stroke-dasharray="4 7" stroke-linecap="round"/>
+  <path d="M358 219 L374 227 L358 235 Z" fill="#00C9A7"/>
+  <text x="316" y="210" font-size="13" font-weight="600" text-anchor="middle" fill="#7CFF6B">2 to 5 days</text>
+  <text x="150" y="286" font-size="13" text-anchor="middle" fill="#8FB5BF">once, at the start</text>
+  <text x="680" y="270" font-size="13" font-weight="700" letter-spacing="3" text-anchor="middle" fill="#5EEAD4">WEEKLY LOOP</text>
+  <text x="680" y="302" font-size="22" font-weight="700" text-anchor="middle" fill="#E6FFFA">repeat until</text>
+  <text x="680" y="330" font-size="22" font-weight="700" text-anchor="middle" fill="#E6FFFA">exam day</text>
+  <g>
+    <rect x="40" y="193" width="220" height="68" rx="34" fill="#13303A" stroke="#00C9A7" stroke-opacity="0.65" stroke-width="1.5"/>
+    <circle cx="74" cy="227" r="21" fill="#00C9A7"/>
+    <text x="74" y="234" font-size="20" font-weight="800" text-anchor="middle" fill="#0F2027">1</text>
+    <text x="106" y="224" font-size="19" font-weight="700" fill="#E6FFFA">Sow</text>
+    <text x="106" y="245" font-size="13" fill="#8FB5BF">priming · pretesting</text>
+  </g>
+  <g>
+    <rect x="375" y="193" width="220" height="68" rx="34" fill="#13303A" stroke="#19D49B" stroke-opacity="0.65" stroke-width="1.5"/>
+    <circle cx="409" cy="227" r="21" fill="#19D49B"/>
+    <text x="409" y="234" font-size="20" font-weight="800" text-anchor="middle" fill="#0F2027">2</text>
+    <text x="441" y="224" font-size="19" font-weight="700" fill="#E6FFFA">Study</text>
+    <text x="441" y="245" font-size="13" fill="#8FB5BF">dual coding</text>
+  </g>
+  <g>
+    <rect x="570" y="51" width="220" height="68" rx="34" fill="#13303A" stroke="#32DF8F" stroke-opacity="0.65" stroke-width="1.5"/>
+    <circle cx="604" cy="85" r="21" fill="#32DF8F"/>
+    <text x="604" y="92" font-size="20" font-weight="800" text-anchor="middle" fill="#0F2027">3</text>
+    <text x="636" y="82" font-size="19" font-weight="700" fill="#E6FFFA">Show</text>
+    <text x="636" y="103" font-size="13" fill="#8FB5BF">Feynman technique</text>
+  </g>
+  <g>
+    <rect x="765" y="193" width="220" height="68" rx="34" fill="#13303A" stroke="#4AE983" stroke-opacity="0.65" stroke-width="1.5"/>
+    <circle cx="799" cy="227" r="21" fill="#4AE983"/>
+    <text x="799" y="234" font-size="20" font-weight="800" text-anchor="middle" fill="#0F2027">4</text>
+    <text x="831" y="224" font-size="19" font-weight="700" fill="#E6FFFA">Exercise</text>
+    <text x="831" y="245" font-size="13" fill="#8FB5BF">retrieval practice</text>
+  </g>
+  <g>
+    <rect x="690" y="422" width="220" height="68" rx="34" fill="#13303A" stroke="#63F477" stroke-opacity="0.65" stroke-width="1.5"/>
+    <circle cx="724" cy="456" r="21" fill="#63F477"/>
+    <text x="724" y="463" font-size="20" font-weight="800" text-anchor="middle" fill="#0F2027">5</text>
+    <text x="756" y="453" font-size="19" font-weight="700" fill="#E6FFFA">Assess</text>
+    <text x="756" y="474" font-size="13" fill="#8FB5BF">interleaving</text>
+  </g>
+  <g>
+    <rect x="450" y="422" width="220" height="68" rx="34" fill="#13303A" stroke="#7CFF6B" stroke-opacity="0.65" stroke-width="1.5"/>
+    <circle cx="484" cy="456" r="21" fill="#7CFF6B"/>
+    <text x="484" y="463" font-size="20" font-weight="800" text-anchor="middle" fill="#0F2027">6</text>
+    <text x="516" y="453" font-size="19" font-weight="700" fill="#E6FFFA">Review</text>
+    <text x="516" y="474" font-size="13" fill="#8FB5BF">spaced repetition</text>
+  </g>
+  </g>
+</svg>

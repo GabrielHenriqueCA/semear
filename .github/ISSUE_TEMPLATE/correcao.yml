@@ -1,0 +1,31 @@
+name: 🐛 Correção
+description: Algo errado ou desatualizado (fato técnico, link, peso de domínio).
+labels: [correção]
+body:
+  - type: input
+    id: arquivo
+    attributes:
+      label: Arquivo
+      placeholder: certificacoes/dp-750/README.md
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: O que está errado
+    validations:
+      required: true
+  - type: input
+    id: fonte
+    attributes:
+      label: Fonte oficial que confirma a correção
+      placeholder: https://learn.microsoft.com/...
+    validations:
+      required: true
+  - type: checkboxes
+    id: regras
+    attributes:
+      label: Regras da casa
+      options:
+        - label: Não estou compartilhando questões reais de prova.
+          required: true

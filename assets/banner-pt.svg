@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="SEMEAR. Semear, Estudar, Mostrar, Exercitar, Avaliar, Revisar. Um método de estudo para certificações de dados e nuvem, com IA como parceira de treino.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F2027"/>
+      <stop offset="0.55" stop-color="#203A43"/>
+      <stop offset="1" stop-color="#2C5364"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#00C9A7"/>
+      <stop offset="1" stop-color="#7CFF6B"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5EEAD4"/>
+      <stop offset="1" stop-color="#7CFF6B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00C9A7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#00C9A7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#5EEAD4"/>
+    </pattern>
+    <clipPath id="card"><rect width="1280" height="400" rx="28"/></clipPath>
+    <linearGradient id="stem" gradientUnits="userSpaceOnUse" x1="0" y1="196" x2="0" y2="96">
+      <stop offset="0" stop-color="#00C9A7"/>
+      <stop offset="1" stop-color="#7CFF6B"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1280" height="400" fill="url(#bg)"/>
+    <rect width="1280" height="400" fill="url(#grid)" opacity="0.07"/>
+    <circle cx="230" cy="200" r="230" fill="url(#glow)"/>
+    <g stroke="#5EEAD4" stroke-width="2" fill="none" opacity="0.28">
+      <path d="M1010 352 L1090 314 L1170 340 L1240 292"/>
+      <path d="M1090 314 L1150 270 L1236 250"/>
+    </g>
+    <g fill="#5EEAD4" opacity="0.55">
+      <circle cx="1010" cy="352" r="6"/><circle cx="1090" cy="314" r="5"/>
+      <circle cx="1170" cy="340" r="6"/><circle cx="1240" cy="292" r="5"/>
+      <circle cx="1150" cy="270" r="4"/><circle cx="1236" cy="250" r="4"/>
+    </g>
+    <g transform="translate(70 31) scale(1.25)">
+      <g fill="#5EEAD4" opacity="0.55">
+        <circle cx="64" cy="200" r="5"/><circle cx="104" cy="212" r="4"/>
+        <circle cx="152" cy="208" r="5"/><circle cx="192" cy="198" r="4"/>
+      </g>
+      <path d="M64 200 L104 212 L152 208 L192 198" stroke="#5EEAD4" stroke-width="2" opacity="0.35" fill="none"/>
+      <path d="M128 196 C128 160 128 130 128 96" stroke="url(#stem)" stroke-width="10" stroke-linecap="round" fill="none"/>
+      <path d="M128 132 C92 132 70 110 66 78 C102 78 126 98 128 132 Z" fill="url(#leaf)"/>
+      <path d="M128 112 C164 112 186 90 190 58 C154 58 130 78 128 112 Z" fill="url(#leaf)" opacity="0.9"/>
+    </g>
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+      <text x="438" y="172" font-size="104" font-weight="800" letter-spacing="14" fill="url(#word)">SEMEAR</text>
+      <text x="444" y="224" font-size="24" font-weight="600" letter-spacing="0.5" fill="#CFFAF0"><tspan fill="#7CFF6B">S</tspan>emear · <tspan fill="#7CFF6B">E</tspan>studar · <tspan fill="#7CFF6B">M</tspan>ostrar · <tspan fill="#7CFF6B">E</tspan>xercitar · <tspan fill="#7CFF6B">A</tspan>valiar · <tspan fill="#7CFF6B">R</tspan>evisar</text>
+      <text x="444" y="274" font-size="21" fill="#9CC3CC">Um método de estudo para certificações de dados e nuvem,</text>
+      <text x="444" y="303" font-size="21" fill="#9CC3CC">com IA como parceira de treino.</text>
+      <rect x="444" y="326" width="250" height="32" rx="16" fill="#00C9A7" fill-opacity="0.12" stroke="#00C9A7" stroke-opacity="0.55"/>
+      <text x="569" y="347" font-size="15" font-weight="600" text-anchor="middle" fill="#7CFF6B">Plante hoje. Colha na prova.</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Semear logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F2027"/>
+      <stop offset="1" stop-color="#2C5364"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#00C9A7"/>
+      <stop offset="1" stop-color="#7CFF6B"/>
+    </linearGradient>
+    <linearGradient id="stem" gradientUnits="userSpaceOnUse" x1="0" y1="196" x2="0" y2="96">
+      <stop offset="0" stop-color="#00C9A7"/>
+      <stop offset="1" stop-color="#7CFF6B"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <g fill="#5EEAD4" opacity="0.55">
+    <circle cx="64" cy="200" r="5"/><circle cx="104" cy="212" r="4"/>
+    <circle cx="152" cy="208" r="5"/><circle cx="192" cy="198" r="4"/>
+  </g>
+  <g stroke="#5EEAD4" stroke-width="2" opacity="0.35" fill="none">
+    <path d="M64 200 L104 212 L152 208 L192 198"/>
+  </g>
+  <path d="M128 196 C128 160 128 130 128 96" stroke="url(#stem)" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M128 132 C92 132 70 110 66 78 C102 78 126 98 128 132 Z" fill="url(#leaf)"/>
+  <path d="M128 112 C164 112 186 90 190 58 C154 58 130 78 128 112 Z" fill="url(#leaf)" opacity="0.9"/>
+</svg>
