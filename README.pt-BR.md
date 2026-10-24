@@ -6,6 +6,7 @@
 
 <img src="https://img.shields.io/badge/AZ--900-aprovado-00C9A7?style=flat-square&labelColor=0F2027&logo=microsoftazure&logoColor=5EEAD4" alt="AZ-900 aprovado" />
 <img src="https://img.shields.io/badge/DP--750-aprovado-00C9A7?style=flat-square&labelColor=0F2027&logo=databricks&logoColor=5EEAD4" alt="DP-750 aprovado" />
+<img src="https://img.shields.io/badge/DP--800-aprovado-00C9A7?style=flat-square&labelColor=0F2027&logo=microsoftsqlserver&logoColor=5EEAD4" alt="DP-800 aprovado" />
 <img src="https://img.shields.io/badge/Airflow-aprovado-00C9A7?style=flat-square&labelColor=0F2027&logo=apacheairflow&logoColor=5EEAD4" alt="Airflow aprovado" />
 <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-5EEAD4?style=flat-square&labelColor=0F2027" alt="Licença MIT" />
 <img src="https://img.shields.io/badge/PRs-bem--vindos-7CFF6B?style=flat-square&labelColor=0F2027" alt="PRs bem-vindos" />
@@ -35,7 +36,7 @@ O SEMEAR transforma ciência cognitiva real em uma **rotina semanal simples**, c
 <tr>
 <td width="60%">
 
-Eu sou o **Gabriel (Gabs)**, engenheiro de dados. Passei na **AZ-900**, na **DP-750** e no **Airflow** com este método e resolvi documentar não só *o que* estudar, mas **como** estudar.
+Eu sou o **Gabriel (Gabs)**, engenheiro de dados. Passei na **AZ-900**, na **DP-750**, na **DP-800** e no **Airflow** com este método e resolvi documentar não só *o que* estudar, mas **como** estudar.
 
 Este repo é o meu **hub central de estudo**: o método é o tronco e cada certificação é um galho. Novas provas entram sem mudar a estrutura.
 
@@ -256,6 +257,13 @@ A IA não está aqui para te dar respostas. Está aqui para **fazer as perguntas
 <td><a href="certificacoes/dp-750/"><code>dp-750/</code></a></td>
 </tr>
 <tr>
+<td><img src="https://img.shields.io/badge/-SQL_AI-0F2027?style=flat-square&logo=microsoftsqlserver&logoColor=5EEAD4" /> <strong>DP-800</strong></td>
+<td>Developing AI-Enabled Database Solutions</td>
+<td><img src="https://img.shields.io/badge/aprovado-00C9A7?style=flat-square" /></td>
+<td><a href="https://learn.microsoft.com/credentials/certifications/developing-ai-enabled-database-solutions/"><img src="https://img.shields.io/badge/Verificado-Microsoft-0F2027?style=flat-square&logo=microsoft" /></a></td>
+<td><a href="certificacoes/dp-800/"><code>dp-800/</code></a></td>
+</tr>
+<tr>
 <td><img src="https://img.shields.io/badge/-Airflow-0F2027?style=flat-square&logo=apacheairflow&logoColor=5EEAD4" /> <strong>Airflow</strong></td>
 <td>Astronomer: Airflow 3 (Fundamentals & DAG Authoring) + AI Orchestration</td>
 <td><img src="https://img.shields.io/badge/aprovado-00C9A7?style=flat-square" /></td>
@@ -331,6 +339,7 @@ semear/
     ├── _modelo/       molde em branco para novas provas
     ├── az-900/        Azure Fundamentals
     ├── dp-750/        Azure Databricks Data Engineer
+    ├── dp-800/        SQL AI Developer Associate
     └── airflow/       Airflow 3, Autoria de DAGs e Orquestração de IA
 ```
 
