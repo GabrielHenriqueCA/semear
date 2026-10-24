@@ -160,7 +160,7 @@ Six steps. One runs once at the start, the other five repeat every week until ex
 **1.** Fork this repo and clone it
 
 ```bash
-git clone https://github.com/<your-user>/semear.git && cd semear
+git clone https://github.com/GabrielHenriqueCA/semear.git && cd semear
 ```
 
 **2.** Create your exam folder from the blank template <kbd>requires Node 18+</kbd>

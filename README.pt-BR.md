@@ -161,7 +161,7 @@ Seis etapas. Uma acontece uma vez só, no início. As outras cinco se repetem to
 **1.** Faça um fork deste repo e clone
 
 ```bash
-git clone https://github.com/<seu-usuario>/semear.git && cd semear
+git clone https://github.com/GabrielHenriqueCA/semear.git && cd semear
 ```
 
 **2.** Crie a pasta da sua prova a partir do molde em branco <kbd>requer Node 18+</kbd>
