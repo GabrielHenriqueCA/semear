@@ -4,7 +4,7 @@ Referência rápida dos conceitos-chave organizados por domínio do exame.
 
 ---
 
-## Domínio 1: Design and Develop Database Solutions (35–40%)
+## Domínio 1: Design and Develop Database Solutions (35 a 40%)
 
 ### Tabelas Especializadas
 | Tipo | Quando Usar | Comportamento Chave |
@@ -33,7 +33,7 @@ Referência rápida dos conceitos-chave organizados por domínio do exame.
 
 ---
 
-## Domínio 2: Secure, Optimize, and Deploy (35–40%)
+## Domínio 2: Secure, Optimize, and Deploy (35 a 40%)
 
 ### Segurança em Camadas
 | Recurso | O que protege | Nível |
@@ -46,7 +46,7 @@ Referência rápida dos conceitos-chave organizados por domínio do exame.
 ### Performance
 - **Query Store:** histórico de planos + métricas de runtime. Permite forçar planos e detectar regressões.
 - **Automatic Tuning:** SQL cria/dropa índices e corrige planos automaticamente com base no Query Store.
-- **DMVs:** `sys.dm_exec_query_stats`, `sys.dm_exec_requests`, `sys.dm_os_wait_stats` — diagnóstico em tempo real.
+- **DMVs:** `sys.dm_exec_query_stats`, `sys.dm_exec_requests`, `sys.dm_os_wait_stats`: diagnóstico em tempo real.
 - **Extended Events:** sessões de captura leve de eventos para troubleshooting avançado.
 
 ### CI/CD
@@ -57,7 +57,7 @@ Referência rápida dos conceitos-chave organizados por domínio do exame.
 
 ---
 
-## Domínio 3: Implement AI Capabilities (25–30%)
+## Domínio 3: Implement AI Capabilities (25 a 30%)
 
 ### Vetores e Embeddings
 - Tipo `vector` nativo no SQL para armazenar embeddings

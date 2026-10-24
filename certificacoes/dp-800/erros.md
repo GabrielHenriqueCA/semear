@@ -21,7 +21,7 @@ Registro técnico de armadilhas, erros e pegadinhas encontradas durante a prepar
 - **O que marquei:** Usei ledger table para um cenário que exigia apenas versionamento histórico de dados de funcionários.
 - **Resposta correta:** Temporal tables (system-versioned) são a escolha para rastrear mudanças ao longo do tempo com consultas `AS OF`. Ledger tables são para cenários de auditoria criptograficamente verificável e imutabilidade.
 - **Causa raiz:** Confundir "auditoria" com "histórico". Temporal = histórico navegável. Ledger = prova criptográfica de não-adulteração.
-- **Correção definitiva:** Temporal tables mantêm uma tabela de histórico automática e permitem consultar qualquer ponto no tempo. Ledger tables usam hashes encadeados para provar que os dados não foram alterados — ideal para compliance financeiro e regulatório.
+- **Correção definitiva:** Temporal tables mantêm uma tabela de histórico automática e permitem consultar qualquer ponto no tempo. Ledger tables usam hashes encadeados para provar que os dados não foram alterados: ideal para compliance financeiro e regulatório.
 
 ---
 

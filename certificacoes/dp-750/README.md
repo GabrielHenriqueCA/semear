@@ -26,7 +26,7 @@
 </tr>
 <tr>
 <td><strong>Página oficial</strong></td>
-<td><a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-databricks-data-engineer-associate/">Microsoft Learn: DP-750</a></td>
+<td><a href="https://learn.microsoft.com/credentials/certifications/resources/study-guides/dp-750">Microsoft Learn: DP-750</a></td>
 </tr>
 <tr>
 <td><strong>Credencial oficial</strong></td>

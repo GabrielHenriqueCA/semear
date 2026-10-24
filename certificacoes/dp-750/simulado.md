@@ -2,7 +2,7 @@
 
 > ⚠️ **Aviso importante:** estas questões são **de treino, criadas por nós, não oficiais**.
 > Elas servem para exercitar o conhecimento, mas **não substituem o simulado oficial da Microsoft**.
-> Faça o [Practice Assessment oficial](https://learn.microsoft.com/en-us/credentials/certifications/azure-databricks-data-engineer-associate/practice/assessment?assessment-type=practice&assessmentId=90) antes da prova.
+> Consulte o [Guia oficial no Microsoft Learn](https://learn.microsoft.com/credentials/certifications/resources/study-guides/dp-750) antes da prova.
 
 ---
 

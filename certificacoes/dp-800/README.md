@@ -91,7 +91,7 @@
 ### 3. Capacidades de IA em Soluções SQL (25 a 30%)
 - **Vetores e Embeddings:** Tipo de dado `vector` nativo no SQL, geração de embeddings via modelos de IA e armazenamento direto em colunas vetoriais.
 - **Busca Vetorial:** Operações de similaridade (cosine similarity, dot product) diretamente no T-SQL para cenários de busca semântica.
-- **RAG (Retrieval-Augmented Generation):** Integração de dados do banco com Azure OpenAI para respostas contextualizadas — o banco como fonte de verdade para o LLM.
+- **RAG (Retrieval-Augmented Generation):** Integração de dados do banco com Azure OpenAI para respostas contextualizadas: o banco como fonte de verdade para o LLM.
 - **Funções T-SQL de IA:** Extensões nativas para invocar modelos de IA diretamente de dentro de queries SQL, sem precisar sair do banco.
 
 <img src="../../assets/divider.svg" width="100%" height="6" alt="" />
