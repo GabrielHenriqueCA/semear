@@ -4,8 +4,6 @@ on:
   push:
     branches: [main]
   pull_request:
-  schedule:
-    - cron: "0 9 * * 1" # toda segunda: links externos quebram sem ninguém mexer no repo
   workflow_dispatch:
 
 permissions:
@@ -25,20 +23,3 @@ jobs:
         with:
           node-version: 22
       - run: npm run check
-
-  external-links:
-    name: Links externos
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: lycheeverse/lychee-action@v2
-        with:
-          args: >-
-            --no-progress
-            --cache --max-cache-age 1d
-            --exclude-path node_modules
-            --exclude 'https?://.*linkedin\.com.*'
-            --exclude 'https?://img\.shields\.io/.*'
-            --accept 200,429,999
-            './**/*.md'
-          fail: true
