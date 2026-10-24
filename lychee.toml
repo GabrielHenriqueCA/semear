@@ -3,13 +3,14 @@
 
 cache = true
 max_cache_age = "1d"
+accept = [200, 429, 999]
 
 # URLs ou padrões a serem ignorados
 exclude = [
   # LinkedIn bloqueia bots com HTTP 999
-  "^https?://([a-z0-9]+\\.)?linkedin\\.com",
+  "https?://.*linkedin\\.com.*",
   # Placeholders de comandos (ex: <seu-usuario>, <your-user>)
-  "github\\.com/<",
+  ".*github\\.com/<.*",
   # Badges externas geradas sob demanda
   "^https://img\\.shields\\.io/",
   # Microsoft Learn credentials share (requer login interativo)
