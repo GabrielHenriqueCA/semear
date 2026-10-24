@@ -37,6 +37,5 @@ jobs:
             --no-progress
             --cache --max-cache-age 1d
             --exclude-path node_modules
-            --exclude-file .lycheeignore
             './**/*.md'
           fail: true

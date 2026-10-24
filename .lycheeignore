@@ -11,3 +11,6 @@ https://github\.com/<.*
 
 # Badges são geradas sob demanda e às vezes limitam requisições do CI
 ^https://img\.shields\.io/
+
+# Microsoft Learn credentials share (requer login interativo)
+^https://learn\.microsoft\.com/api/credentials/share

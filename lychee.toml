@@ -1,0 +1,17 @@
+# Configuração do Lychee (validador de links)
+# Documentação: https://lychee.cli.rs/
+
+cache = true
+max_cache_age = "1d"
+
+# URLs ou padrões a serem ignorados
+exclude = [
+  # LinkedIn bloqueia bots com HTTP 999
+  "^https?://([a-z0-9]+\\.)?linkedin\\.com",
+  # Placeholders de comandos (ex: <seu-usuario>, <your-user>)
+  "github\\.com/<",
+  # Badges externas geradas sob demanda
+  "^https://img\\.shields\\.io/",
+  # Microsoft Learn credentials share (requer login interativo)
+  "^https://learn\\.microsoft\\.com/api/credentials/share",
+]
